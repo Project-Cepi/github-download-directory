@@ -1,8 +1,8 @@
 {
-	"name": "@cepi/github-download-directory",
+	"name": "@cepi/github-get-directory",
 	"version": "2.0.0",
 	"description": "Download the contents of a given directory from a repository on GitHub.",
-	"repository": "phated/github-download-directory",
+	"repository": "Project-Cepi/github-download-directory",
 	"author": "Cepi & Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
 	"license": "MIT",
 	"engines": {
@@ -13,7 +13,6 @@
 	"files": [
 		"dist/index.js"
 	],
-	"publishConfig": { "registry": "https://npm.pkg.github.com/" },
 	"scripts": {
 		"build": "tsc -p tsconfig.json --w",
 		"lint": "eslint .",
@@ -34,9 +33,6 @@
 		"mocha": "^7.2.0",
 		"nyc": "^15.1.0",
 		"typescript": "^3.9.6"
-	},
-	"prettier": {
-		"singleQuote": true
 	},
 	"keywords": [
 		"github",
