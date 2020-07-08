@@ -122,7 +122,6 @@ class Downloader {
 	 * @param exportPrefix 
 	 */
 	private async output(file: GithubFile) {
-		console.log(this.exportPrefix + file.path);
 		await this.createDirectories(this.exportPrefix + file.path);
 		await writeFile(this.exportPrefix + file.path, file.contents);
 	}
