@@ -1,6 +1,6 @@
 {
 	"name": "@cepi/github-get-directory",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Download the contents of a given directory from a repository on GitHub.",
 	"repository": "Project-Cepi/github-download-directory",
 	"author": "Cepi & Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
